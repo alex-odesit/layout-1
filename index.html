@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+
+	<title>Document</title>
+	<!-- <meta name="description" content="Описание страницы">
+	<meta name="keywords" content="ключевые стлова через запятую"> -->
+	<!-- Иконки -->
+	<!-- <link rel="icon" href="#" type="image/x-icon">
+	<link rel="shortcut icon" href="#" type="image/x-icon"> -->
+	<!-- Tags -->
+	<!-- <meta property="og:title" content="Онлайн-курсы: обучение разработке сайтов, веб-дизайну, javascript, php, фрилансу">
+	<meta property="og:description" content='Онлайн-курсы по дизайну и разработке. Более 200000 студентов. 7 лет обучаем актуальным онлайн-профессиям.'>
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="https://wayup.in/assets/cache/images/650x527-wayup-home.ba3.png">
+	<meta property="og:site_name" content="WAYUP"> -->
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+	<!-- style.css -->
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+	<header class="header" id="header">
+		<div class="wrapper-fixed-menu">
+			<div class="container">
+				<div class="top-header">
+					<div class="row">
+						<div class="col-12 col-md-8" id="colmd8">
+							<div class="seven-day">
+								<img src="img/Vector.svg" alt="">
+								<div class="seven-day__item">
+									8 (812) 123-45-67
+								</div>
+								<div class="seven-day__item">
+									Работаем 7 дней в неделю
+								</div>
+								<div class="seven-day__item">
+									9:00 — 18:00
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-3 offset-md-1" id="offset">
+							<div class="registration">
+								<img src="img/ic_sharp-log-in.svg" alt="">
+								<span class="input">Войти </span> / <span class="reg"> Регистрация</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="navigation-wrapper">
+					<div class="row align-items-center">
+						<div class="col-2">
+							<img src="img/logo.png" alt="" class="logo">
+						</div>
+						<div class="col-9 col-md-8 col-lg-7 col-xl-6 offset-md-2 offset-lg-3 offset-xl-4">
+							<div class="navigation">
+								<div class="navigation-fon">
+									<nav class="menu">
+										<li class="menu__item">
+											<a href="#">
+												Понравилось
+											</a>
+										</li>
+										<li class="menu__item">
+											<a href="#">
+												личный кабинет
+											</a>
+										</li>
+										<li class="menu__item">
+											<a href="#">
+												настройки
+											</a>
+										</li>
+										<div class="menu-close">
+											<span class="first__close"></span>
+											<span class="second__close"></span>
+										</div>
+									</nav>
+									<div class="navigation__icons">
+										<img src="img/bx_bx-cart.svg" alt="">
+										<img src="img/Vector-big.svg" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="burger-close"></div>
+						</div>
+						<div class="col-1" id="burger">
+							<div class="burger"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="offer">
+			<div class="offer__image">
+				<img src="img/header-logo.png" alt="" class="offer__logo">
+				<div class="offer__line"></div>
+				<div class="offer__title">
+					санкт-петербург
+				</div>
+			</div>
+			<div class="offer__text">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum purus, est tortor pulvinar ut in.
+				Fringilla a
+				diam enim sed justo, sed iaculis sagittis. Tortor id eu interdum nec ut iaculis. Penatibus ullamcorper
+				ultricies morbi
+				ipsum sem metus pharetra, mi. Tortor nibh magna feugiat id nunc, dui nisl viverra.
+			</div>
+		</div>
+	</header>
+	<section class="season">
+		<div class="season-cart">
+			<div class="season__title">
+				СЕЗОН 2020/21
+			</div>
+			<div class="season-cart__watches">
+				<div class="season-cart__item">
+					<div class="season-cart__box">
+						<div class="season-cart__img">
+							<img src="img/watch.png" alt="">
+						</div>
+					</div>
+					<div class="season-cart__subtitle">
+						Louis XVI ATHOS
+					</div>
+					<div class="season-cart__cost">
+						165 000 руб.
+					</div>
+				</div>
+				<div class="season-cart__item">
+					<div class="season-cart__box">
+						<div class="season-cart__img">
+							<img src="img/watch.png" alt="">
+						</div>
+					</div>
+					<div class="season-cart__subtitle">
+						Louis XVI ATHOS
+					</div>
+					<div class="season-cart__cost">
+						165 000 руб.
+					</div>
+				</div>
+				<div class="season-cart__item">
+					<div class="season-cart__box">
+						<div class="season-cart__img">
+							<img src="img/watch.png" alt="">
+						</div>
+					</div>
+					<div class="season-cart__subtitle">
+						Louis XVI ATHOS
+					</div>
+					<div class="season-cart__cost">
+						165 000 руб.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="season-collection">
+			<div class="season-collection__title">
+				Новая коллекция
+			</div>
+			<a href="##" class="season-collection__link">
+				Каталог
+			</a>
+		</div>
+	</section>
+	<section class="collection">
+		<div class="collection-jacket"></div>
+		<div class="collection-body">
+			<div class="collection-body__title">
+				коллекция 2018
+			</div>
+			<div class="collection-body__text">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non rutrum ornare ut mattis habitant dui arcu.
+				Sagittis amet
+				nunc ut neque quis nibh arcu. Vivamus vestibulum nisi et venenatis sed scelerisque magna consectetur. Amet
+				convallis
+				quis gravida facilisis vulputate. Faucibus facilisi habitasse ipsum interdum dictum aliquet. Velit quis
+				ullamcorper
+				pulvinar nulla malesuada integer. Aenean praesent viverra nulla nullam natoque volutpat curabitur auctor.
+				Viverra
+				viverra ullamcorper scelerisque risus dignissim egestas. Id aliquam a aliquam egestas leo orci pharetra sed
+				diam.
+			</div>
+			<a href="##" class="collection-body__link">посмотреть коллекцию</a>
+		</div>
+	</section>
+	<section class="list">
+		<div class="container">
+			
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="list__title">
+						новые поступления
+					</div>
+				</div>
+			</div>
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="list__item">
+							<div class="list__img">
+								<img src="img/watch.png" alt="">
+							</div>
+							<div class="list__subtitle">
+								Louis XVI ATHOS
+							</div>
+							<div class="list__cost">
+								165 000 руб.
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="list__item">
+							<div class="list__img">
+								<img src="img/watch.png" alt="">
+							</div>
+							<div class="list__subtitle">
+								Louis XVI ATHOS
+							</div>
+							<div class="list__cost">
+								165 000 руб.
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="list__item">
+							<div class="list__img">
+								<img src="img/watch.png" alt="">
+							</div>
+							<div class="list__subtitle">
+								Louis XVI ATHOS
+							</div>
+							<div class="list__cost">
+								165 000 руб.
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="list__item">
+							<div class="list__img">
+								<img src="img/watch.png" alt="">
+							</div>
+							<div class="list__subtitle">
+								Louis XVI ATHOS
+							</div>
+							<div class="list__cost">
+								165 000 руб.
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="list__item">
+							<div class="list__img">
+								<img src="img/watch.png" alt="">
+							</div>
+							<div class="list__subtitle">
+								Louis XVI ATHOS
+							</div>
+							<div class="list__cost">
+								165 000 руб.
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="list__item">
+							<div class="list__img">
+								<img src="img/watch.png" alt="">
+							</div>
+							<div class="list__subtitle">
+								Louis XVI ATHOS
+							</div>
+							<div class="list__cost">
+								165 000 руб.
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="list__item">
+							<div class="list__img">
+								<img src="img/watch.png" alt="">
+							</div>
+							<div class="list__subtitle">
+								Louis XVI ATHOS
+							</div>
+							<div class="list__cost">
+								165 000 руб.
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="list__item">
+							<div class="list__img">
+								<img src="img/watch.png" alt="">
+							</div>
+							<div class="list__subtitle">
+								Louis XVI ATHOS
+							</div>
+							<div class="list__cost">
+								165 000 руб.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- If we need pagination -->
+				<!-- <div class="swiper-pagination"></div> -->
+			
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			
+				<!-- If we need scrollbar -->
+				<div class="swiper-scrollbar"></div>
+			</div>
+			<!-- <div class="row">
+				<div class=" col-6 col-sm-4 col-md-3">
+					<div class="list__item">
+						<div class="list__img">
+							<img src="img/watch.png" alt="">
+						</div>
+						<div class="list__subtitle">
+							Louis XVI ATHOS
+						</div>
+						<div class="list__cost">
+							165 000 руб.
+						</div>
+					</div>
+				</div>
+				<div class=" col-6 col-sm-4 col-md-3">
+					<div class="list__item">
+						<div class="list__img">
+							<img src="img/watch.png" alt="">
+						</div>
+						<div class="list__subtitle">
+							Louis XVI ATHOS
+						</div>
+						<div class="list__cost">
+							165 000 руб.
+						</div>
+					</div>
+				</div>
+				<div class=" col-6 col-sm-4 col-md-3">
+					<div class="list__item">
+						<div class="list__img">
+							<img src="img/watch.png" alt="">
+						</div>
+						<div class="list__subtitle">
+							Louis XVI ATHOS
+						</div>
+						<div class="list__cost">
+							165 000 руб.
+						</div>
+					</div>
+				</div>
+				<div class=" col-6 col-sm-4 col-md-3">
+					<div class="list__item">
+						<div class="list__img">
+							<img src="img/watch.png" alt="">
+						</div>
+						<div class="list__subtitle">
+							Louis XVI ATHOS
+						</div>
+						<div class="list__cost">
+							165 000 руб.
+						</div>
+					</div>
+				</div>
+				<div class=" col-6 col-sm-4 col-md-3">
+					<div class="list__item">
+						<div class="list__img">
+							<img src="img/watch.png" alt="">
+						</div>
+						<div class="list__subtitle">
+							Louis XVI ATHOS
+						</div>
+						<div class="list__cost">
+							165 000 руб.
+						</div>
+					</div>
+				</div>
+				<div class=" col-6 col-sm-4 col-md-3">
+					<div class="list__item">
+						<div class="list__img">
+							<img src="img/watch.png" alt="">
+						</div>
+						<div class="list__subtitle">
+							Louis XVI ATHOS
+						</div>
+						<div class="list__cost">
+							165 000 руб.
+						</div>
+					</div>
+				</div>
+				<div class=" col-6 col-sm-4 col-md-3">
+					<div class="list__item">
+						<div class="list__img">
+							<img src="img/watch.png" alt="">
+						</div>
+						<div class="list__subtitle">
+							Louis XVI ATHOS
+						</div>
+						<div class="list__cost">
+							165 000 руб.
+						</div>
+					</div>
+				</div>
+				<div class=" col-6 col-sm-4 col-md-3">
+					<div class="list__item">
+						<div class="list__img">
+							<img src="img/watch.png" alt="">
+						</div>
+						<div class="list__subtitle">
+							Louis XVI ATHOS
+						</div>
+						<div class="list__cost">
+							165 000 руб.
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</div>
+	</section>
+
+	<section class="cart">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="cart__title">
+						наши бренды
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-6 col-lg-3">
+					<div class="cart__image">
+						<img src="img/cart.png" alt="">
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-3">
+					<div class="cart__image">
+						<img src="img/cart.png" alt="">
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-3">
+					<div class="cart__image">
+						<img src="img/cart.png" alt="">
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-3">
+					<div class="cart__image">
+						<img src="img/cart.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="form">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-4">
+					<div class="form__title">
+						О магазине
+					</div>
+					<div class="form__text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra nunc cursus tortor lectus nunc nulla nibh.
+						Egestas amet consectetur vel vitae aliquam dictum suspendisse. Lobortis eget consequat, tellus et et sed turpis. Pretium
+						quisque vitae, amet, porttitor odio ultricies massa pharetra leo. Et ipsum urna fames in sit mi ultrices nisi, nunc.
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="form__title">
+						Категории
+					</div>
+					<div class="form__categories">
+						<a href="##" class="form__link-item">часы</a>
+						<a href="##" class="form__link-item">браслеты</a>
+						<a href="##" class="form__link-item">ремни</a>
+						<a href="##" class="form__link-item">ювелирные изделия</a>
+						<a href="##" class="form__link-item">запонки</a>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="form__title">
+						РАссылка
+					</div>
+					<div class="form__text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra nunc cursus tortor lectus nunc nulla nibh.
+					</div>
+					<form action="№" class="form__form">
+						<input type="email" class="form__input" placeholder="Ваша почта">
+						<button class="form__button" type="submit">ПОДПИСАТЬСЯ</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-6">
+					<div class="footer__item">
+						© 2020 Все права защищены
+					</div>
+				</div>
+				<div class="col-6">
+					<div class="footer__item footer__item_underline">
+						Сделано Figma.info
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!---------------------- Awesome icons ---------------------->
+	<!-- <script src="https://kit.fontawesome.com/59e9787f59.js" crossorigin="anonymous"></script> -->
+	<!---------------------- jQuery ---------------------->
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<!---------------------- Main.js ---------------------->
+	<script src="js/main.js"></script>
+</body>
+
+</html>
